@@ -16,3 +16,5 @@ print requests.post("http://localhost:8080/makeflags.php", data=json.dumps({
         }
     ]
 })).text
+
+# return 1 on success; else error message
