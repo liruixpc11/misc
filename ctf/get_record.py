@@ -5,7 +5,8 @@ import requests
 
 
 t = int(time.time())
-print requests.get("http://localhost:8080/records.php", params={
+print requests.get("http://localhost:8080/getrecord.php", params={
+    'secret': 'mysecret',
     'begin_time': t,
     "end_time": t + 10
 }).text
