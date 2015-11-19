@@ -1,0 +1,4 @@
+$schoolData = array(
+    "demo",
+    "lirui",
+);
